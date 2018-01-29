@@ -5,7 +5,7 @@
 
 	<groupId>com.dms.dmsgas-api</groupId>
 	<artifactId>dmsgas-api</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>dmsgas-api</name>
@@ -66,6 +66,11 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- FlyWay -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
