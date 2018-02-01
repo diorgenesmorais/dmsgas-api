@@ -5,7 +5,7 @@
 
 	<groupId>com.dms.dmsgas-api</groupId>
 	<artifactId>dmsgas-api</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>dmsgas-api</name>
@@ -71,6 +71,13 @@
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
 			<version>5.0.6</version><!--$NO-MVN-MAN-VER$-->
+		</dependency>
+		
+		<!-- lib useful -->
+		<dependency>
+			<groupId>com.dms</groupId>
+			<artifactId>useful-lib</artifactId>
+			<version>1.1.5</version>
 		</dependency>
 	</dependencies>
 
